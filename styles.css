@@ -1,0 +1,39 @@
+body {
+    background: #2F4F4F;
+}
+
+a {
+    color: #5C8E54;
+    text-decoration: none;
+}
+
+.article-item {
+    width: 90%;
+    height: 120px;
+    background: white;
+    margin-top: 30px;
+}
+
+#article {
+    margin-left: 35px;
+}
+
+.article-item h4 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 5px;
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.article-item p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 5px;
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
